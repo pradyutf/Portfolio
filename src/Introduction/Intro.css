@@ -1,0 +1,65 @@
+.IntroPage{
+    display: flex;
+    direction: column;
+    height: 100vh;
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    color: white;
+}
+
+
+
+
+
+.line-style{
+    display: flex;
+    margin: 0;
+    height: 20vh;
+    background-color: rgb(33, 33, 33);
+    justify-content: center;
+    align-items: center;
+
+}
+#line{
+    width: 85%;
+    height: 6px;
+    background-color: orange;
+    margin: 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.intro-heading{
+    font-size: 23px;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.intro-info{
+    padding: 50px;
+    text-align: justify;
+    width: 50%;
+}
+
+
+
+.img-intro{
+    background-color: rgb(33, 33, 33);
+    width: 50%;
+    height: 85%;
+    
+}
+#intro-img{
+    height: 85%;
+} 
+
+
