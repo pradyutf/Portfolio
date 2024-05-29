@@ -131,3 +131,10 @@ button {
     color: rgb(33,33, 33);
     font-weight: bold;
 }
+
+.menu-icon{
+    position: absolute;
+    font-size: 35px;
+    right: 30px;
+    top: 20px;
+}

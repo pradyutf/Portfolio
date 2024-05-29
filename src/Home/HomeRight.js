@@ -1,6 +1,7 @@
 function HomeRight() {
   return (
     <div className="HomeRight">
+      
       <div className="my-info">
       <h6>Developer</h6>
       <h1>Pradyut</h1>

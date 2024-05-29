@@ -15,12 +15,17 @@ import NavBar from './NavBar/NavBar';
 function App() {
   return (
     <div className="App">
-      <HomePage />
-      <Intro />
-      <EduPage />
-      <SkillsPage />
-      <ExpPage />
-      <ServicePage />
+      <div className="navbar">
+        <NavBar />
+      </div>
+      <div className="main-content">
+        <HomePage />
+        <Intro />
+        <EduPage />
+        <SkillsPage />
+        <ExpPage />
+        <ServicePage />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,28 @@
+import "./NavBar.css";
+import NavItem from "./NavItem";
+// i want cancel icon from react-icons/fa
+import { FaTimes } from "react-icons/fa";
+
 function NavBar() {
+
+    function hideNav() {
+        let nav = document.querySelector(".NavBary");
+        nav.style.display = "none";
+    }
+
   return (
-    <div>
-      <h1>NavBar</h1>
+    <div className="NavBary">
+        <div className="cancel-icon" onClick={hideNav}>
+            <FaTimes />
+        </div>
+        <div className="nav-list" >
+            <NavItem>Home</NavItem>
+            <NavItem>About</NavItem>
+            <NavItem>Education</NavItem>
+            <NavItem>Skills</NavItem>
+            <NavItem>Experience</NavItem>
+            <NavItem>Services</NavItem>
+        </div>
     </div>
   );
 }
