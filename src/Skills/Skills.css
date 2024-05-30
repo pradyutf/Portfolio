@@ -1,0 +1,37 @@
+.skills-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.skills-list{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.skill-box{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.skill-img{
+    height: 80px;
+    width: 80px;
+}
+
+.skills-h2{
+    font-size: 55px;
+    color: orange;
+    margin: 10px;
+    margin-bottom: 150px;
+}
