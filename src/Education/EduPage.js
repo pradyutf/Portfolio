@@ -6,7 +6,7 @@ function EduPage() {
     return (
         <div className="EduPage">
         <div className="Edu-Left">
-        <h1>Education</h1>
+        <h1 className="Edu-heading">Education</h1>
         
             <EducationCard
                 period="2019 - 2021"
@@ -25,10 +25,8 @@ function EduPage() {
             />
         </div>
                 <div className="Edu-Right">
-                <img src="https://dev-portfolio-template.netlify.app/static/media/eduOrange.c61dcfc3.svg" alt="Education Illustration" />
+                    <dotlottie-player src="https://lottie.host/3b98fe78-d6d2-4a5e-8b76-3a79d46dbde6/EsJGfabViG.json" background="transparent" speed="1" style={{width: '35vw', height: '35vw'}} loop autoplay></dotlottie-player>
                 </div>
-
-        
         </div>
     );
 }

@@ -33,7 +33,7 @@
 
 
 
-.intro-heading{
+.intro-body{
     font-size: 23px;
     height: 80vh;
     width: 100%;
@@ -44,22 +44,42 @@
     color: white;
 }
 
+
+
 .intro-info{
-    padding: 50px;
+    
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
     text-align: justify;
     width: 50%;
 }
+.IntroHead{
+    color: orange;
+    font-size: 55px;
+}
+.IntroPara{
+    font-size: large;
+}
 
 
 
-.img-intro{
+
+.intro-img{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(33, 33, 33);
     width: 50%;
-    height: 85%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
     
 }
-#intro-img{
-    height: 85%;
-} 
+
 
 

@@ -2,6 +2,12 @@ import "./NavBar.css";
 import NavItem from "./NavItem";
 // i want cancel icon from react-icons/fa
 import { FaTimes } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa";
+import { FaTasks } from "react-icons/fa";
 
 function NavBar() {
 
@@ -16,12 +22,12 @@ function NavBar() {
             <FaTimes />
         </div>
         <div className="nav-list" >
-            <NavItem>Home</NavItem>
-            <NavItem>About</NavItem>
-            <NavItem>Education</NavItem>
-            <NavItem>Skills</NavItem>
-            <NavItem>Experience</NavItem>
-            <NavItem>Services</NavItem>
+            <NavItem icon={<FaHome />} children={<a href="">Home</a>}></NavItem>
+            <NavItem icon={<FaUser />} children={<a href="">About</a>}></NavItem>
+            <NavItem icon={<FaGraduationCap />} children={<a href="">Education</a>}></NavItem>
+            <NavItem icon={<FaTools />} children={<a href="">Skills</a>}></NavItem>
+            <NavItem icon={<FaBriefcase />} children={<a href="">Experience</a>}></NavItem>
+            <NavItem icon={<FaTasks />} children={<a href="">Services</a>}></NavItem>    
         </div>
     </div>
   );
