@@ -166,3 +166,14 @@ button {
     animation: typewriter 6s steps(30) infinite, blink 0.75s step-end infinite;
     
   }
+
+
+  .Blur{
+    display: none;
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+  }

@@ -1,3 +1,13 @@
+.ExpPage{
+    height: 100vh;
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+
 .ExpIcon{
     display: flex;
     margin: 10px;
@@ -9,4 +19,36 @@
     justify-content: center;
     border-radius: 50%;
     margin-top: 25px;
+}
+.Exp-Left{
+    position: relative;
+    background-color: rgb(33, 33, 33);
+    height: 100%;
+    
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    align-items: center;
+}
+.Exp-Right{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    align-items: end;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.Exp-Img{
+    width: 100%;
+}
+
+.spacer{
+    height: 120px;
 }

@@ -14,6 +14,8 @@ function NavBar() {
     function hideNav() {
         let nav = document.querySelector(".NavBary");
         nav.style.display = "none";
+        let blur = document.querySelector(".Blur");
+        blur.style.display = "none";
     }
 
   return (

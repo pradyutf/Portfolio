@@ -11,6 +11,8 @@ function HomePage() {
   function showNav() {
     let nav = document.querySelector(".NavBary");
     nav.style.display = "flex";
+    let blur = document.querySelector(".Blur");
+    blur.style.display = "block";
   }
 
   

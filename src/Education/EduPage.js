@@ -9,19 +9,19 @@ function EduPage() {
         <h1 className="Edu-heading">Education</h1>
         
             <EducationCard
-                period="2019 - 2021"
-                degree="Master of Science in Computer Science"
-                school="University of Southern California"
-            />
-            <EducationCard
-                period="2015 - 2019"
+                period="2023-2026"
                 degree="Bachelor of Science in Computer Science"
-                school="University of California, Los Angeles"
+                school="Birla Institute of Technology and Science, Pilani"
             />
             <EducationCard
-                period="2011 - 2015"
-                degree="High School Diploma"
-                school="West High School"
+                period="2023-2027"
+                degree="Masters of Science in Computer Science"
+                school="WOOLF University, Europe"
+            />
+            <EducationCard
+                period="2023 - 2027"
+                degree="Undergrad Program in Computer Science"
+                school="Scaler School of Technology, Bangalore"
             />
         </div>
                 <div className="Edu-Right">

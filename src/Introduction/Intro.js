@@ -14,8 +14,8 @@ function Intro() {
                             <div className="intro-info">
                               <h2 className="IntroHead">Who I am</h2>
                               <p className="IntroPara">
-                              My name's Jane. I'm a web designer and developer based in Southampton, UK.<br /><br />
-                              During the day I work as a lead developer at a local agency and in the evening I work on freelance projects and utilize the time to build my own products. I spend my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.
+                              My name's Pradyut. I'm a web designer and developer based in Bangalore, India.<br /><br />
+                              During the day I work as a lead developer at my University and in the evening I work on freelance projects and utilize the time to build my own products. I spend my leisure hours watching movies and sleeping. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.
                               </p>
                             </div>
 

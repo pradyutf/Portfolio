@@ -8,6 +8,7 @@ import SkillsPage from './Skills/SkillsPage';
 import ExpPage from './Experience/ExpPage';
 import ServicePage from './MyServices/ServicePage';
 import NavBar from './NavBar/NavBar'; 
+import Blur from './Home/Blur';
 
 
 
@@ -19,12 +20,13 @@ function App() {
         <NavBar />
       </div>
       <div className="main-content">
+        <Blur/>
         <HomePage />
         <Intro />
         <EduPage />
         <SkillsPage />
         <ExpPage />
-        <ServicePage />
+        {/* <ServicePage /> */}
       </div>
     </div>
   );
