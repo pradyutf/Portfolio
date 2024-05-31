@@ -52,6 +52,12 @@
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+.EduCard:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+    background-color:  rgba(243, 163, 15, 0.777);
+    cursor: pointer;
+}
 .ECIcon{
     display: flex;
     margin: 10px;

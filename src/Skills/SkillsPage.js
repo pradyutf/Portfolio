@@ -20,6 +20,7 @@ function SkillsPage() {
           <SkillBox skill="Spring Boot" url="https://www.svgrepo.com/show/376350/spring.svg" />
           <SkillBox skill="Android" url="https://www.svgrepo.com/show/475631/android-color.svg" />
           <SkillBox skill="My SQL" url="https://www.svgrepo.com/show/374093/sql.svg" />
+          <SkillBox skill="ARKit" url="https://developer.apple.com/assets/elements/icons/arkit/arkit-96x96_2x.png" />
      </div>
      </Marquee>
     </div>

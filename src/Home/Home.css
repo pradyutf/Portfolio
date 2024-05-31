@@ -79,6 +79,11 @@ h1{
   color: black;
   margin: 10px;
 }
+.icony:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
 
 
 
@@ -122,14 +127,29 @@ button {
 }
 #btnDownload{
     background-color: transparent;
+    font-weight: bold; 
+}
+#btnDownload:hover{
+    background-color: white;
+    color: rgb(33,33, 33);
     font-weight: bold;
-    
-    
+    border-color: white;
+    transition: ease-in 0.1s;
+    transform: scale(1.06);
 }
 #btnContact{
     background-color: orange;
     color: rgb(33,33, 33);
     font-weight: bold;
+
+}
+#btnContact:hover{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    transition: ease-in 0.1s;
+    transform: scale(1.05);
 }
 
 .menu-icon{
