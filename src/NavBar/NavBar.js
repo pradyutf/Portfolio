@@ -8,6 +8,9 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
 import { FaTasks } from "react-icons/fa";
+// i want icons for projects and contact from react-icons/fa
+import { FaProjectDiagram } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 function NavBar() {
@@ -55,7 +58,8 @@ function NavBar() {
             <NavItem className="menu-btn" icon={<FaGraduationCap />} children={"Education"}></NavItem>
             <NavItem className="menu-btn" icon={<FaTools />} children={"Skills"}></NavItem>
             <NavItem className="menu-btn" icon={<FaBriefcase />} children={"Experience"}></NavItem>
-            <NavItem className="menu-btn" icon={<FaTasks />} children={"Services"}></NavItem>    
+            <NavItem className="menu-btn" icon={<FaProjectDiagram />} children={"Projects"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaEnvelope />} children={"Contact"}></NavItem>  
         </div>
     </div>
   );
