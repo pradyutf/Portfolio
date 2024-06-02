@@ -12,6 +12,7 @@ const ProjectCard = ({ data }) => {
   const TECH_STACK = data.techStack;
   const LINK_CODE = data.linkCode;
   const LINK_DEMO = data.linkDemo;
+  const LINK_IMG = useRef(null);
 
   const handleMouseEnter = () => {
     projectInfoRef.current.style.opacity = "1";
@@ -21,6 +22,7 @@ const ProjectCard = ({ data }) => {
     techStackRef.current.style.opacity = "1";
     techStackRef.current.style.display = "block";
     console.log("Mouse Enter");
+    LINK_IMG.current.style.opacity = "0";
   };
 
   const handleMouseLeave = () => {
@@ -30,7 +32,7 @@ const ProjectCard = ({ data }) => {
     techStackRef.current.style.display = "none";
     codeIconRef.current.classList.remove("active");
     codeIconRef.current.classList.add("inactive");
-
+    LINK_IMG.current.style.opacity = "1";
     console.log("Mouse Leave");
   };
 
@@ -41,7 +43,7 @@ const ProjectCard = ({ data }) => {
       onMouseLeave={handleMouseLeave}
     >
       <h1>{TITLE}</h1>
-      <img src={IMG} alt="project" />
+      <img src={IMG} alt="project" className="project-img" ref={LINK_IMG}/>
       <div className="project-info" ref={projectInfoRef}>
         <p>{DESCRIPTION}</p>
       </div>

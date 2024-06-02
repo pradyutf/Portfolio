@@ -52,6 +52,7 @@
   .project-card img {
     width: 75%;
     height: auto;
+    transition: all 1.0s ease;
   }
   
   .buttonsCode {
