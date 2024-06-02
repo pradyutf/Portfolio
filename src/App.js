@@ -10,6 +10,7 @@ import ServicePage from './MyServices/ServicePage';
 import NavBar from './NavBar/NavBar'; 
 import Blur from './Home/Blur';
 import Projects from './Projects/Projects';
+import Contact from './Contacts/Contact';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <SkillsPage />
         <ExpPage />
         <Projects/>
+        <Contact/>
         {/* <ServicePage /> */}
       </div>
     </div>
