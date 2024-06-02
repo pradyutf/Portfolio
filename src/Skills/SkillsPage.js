@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 import './Skills.css';
 function SkillsPage() {
   return (
-    <div className="skills-page">
+    <div className="skills-page" id='Skills'>
       <h2 className='skills-h2'>Skills</h2>
       <Marquee 
       pauseOnHover={true}

@@ -4,7 +4,7 @@ import "./Education.css";
 
 function EduPage() {
     return (
-        <div className="EduPage">
+        <div className="EduPage" id="Education">
         <div className="Edu-Left">
         <h1 className="Edu-heading">Education</h1>
         

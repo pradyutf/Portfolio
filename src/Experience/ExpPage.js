@@ -2,7 +2,7 @@ import ExperienceCard from "./ExpCard";
 import "./Experience.css";
 function ExpPage() {
   return (
-    <div className="ExpPage">
+    <div className="ExpPage" id="Experience">
     <div className="Exp-Left">
         <div className="spacer"></div>
         <dotlottie-player src="https://lottie.host/51cc013a-ee66-4fda-aa4f-33cbe2b4a88b/zX3eqO930m.json" background="transparent" speed="1" style={{width: '37vw', height: '37vw'}} loop autoplay></dotlottie-player>

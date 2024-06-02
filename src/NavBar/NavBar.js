@@ -8,8 +8,32 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
 import { FaTasks } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 function NavBar() {
+    const [showNav, setShowNav] = useState(false);
+    useEffect(() => {
+        if (showNav) {
+        let menuBtns = document.querySelectorAll(".nav-item");
+        console.log(menuBtns);
+        menuBtns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                hideNav();
+                let section = btn.innerText;
+                let sectionElement = document.getElementById(section);
+                console.log(section);
+                sectionElement.scrollIntoView({ behavior: "smooth" });
+                
+            });
+    });
+    }
+    }, [showNav]);
+    useEffect(() => {
+        let btn = document.querySelectorAll(".nav-item");
+        if (btn.length > 0) {
+            setShowNav(true);
+        }
+    },[]);
 
     function hideNav() {
         let nav = document.querySelector(".NavBary");
@@ -17,19 +41,21 @@ function NavBar() {
         let blur = document.querySelector(".Blur");
         blur.style.display = "none";
     }
+ 
 
+   
   return (
     <div className="NavBary">
         <div className="cancel-icon" onClick={hideNav}>
             <FaTimes />
         </div>
         <div className="nav-list" >
-            <NavItem icon={<FaHome />} children={<a href="">Home</a>}></NavItem>
-            <NavItem icon={<FaUser />} children={<a href="">About</a>}></NavItem>
-            <NavItem icon={<FaGraduationCap />} children={<a href="">Education</a>}></NavItem>
-            <NavItem icon={<FaTools />} children={<a href="">Skills</a>}></NavItem>
-            <NavItem icon={<FaBriefcase />} children={<a href="">Experience</a>}></NavItem>
-            <NavItem icon={<FaTasks />} children={<a href="">Services</a>}></NavItem>    
+            <NavItem className="menu-btn" icon={<FaHome />} children={"Home"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaUser />} children={"About"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaGraduationCap />} children={"Education"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaTools />} children={"Skills"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaBriefcase />} children={"Experience"}></NavItem>
+            <NavItem className="menu-btn" icon={<FaTasks />} children={"Services"}></NavItem>    
         </div>
     </div>
   );
