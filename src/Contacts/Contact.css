@@ -224,7 +224,7 @@ a {
     scale: 1.1;
 }
 
-.SoicalconsDetails {
+.SocialconsDetails {
     background-color: orange;
     font-size: 30px;
     padding: 5px;
@@ -232,7 +232,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.SoicalconsDetails:hover {
+.SocialconsDetails:hover {
     background-color: white;
     scale: 1.1;
 }
