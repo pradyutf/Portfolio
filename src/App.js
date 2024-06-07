@@ -11,17 +11,20 @@ import NavBar from './NavBar/NavBar';
 import Blur from './Home/Blur';
 import Projects from './Projects/Projects';
 import Contact from './Contacts/Contact';
+import { FaBars } from 'react-icons/fa';
 
 
 
 
 function App() {
+  
   return (
     <div className="App">
       <div className="navbar">
         <NavBar />
       </div>
       <div className="main-content">
+     
         <Blur/>
         <HomePage />
         <Intro />

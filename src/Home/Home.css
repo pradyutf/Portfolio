@@ -153,7 +153,7 @@ button {
 }
 
 .menu-icon{
-    position: absolute;
+    position: fixed;
     font-size: 35px;
     right: 30px;
     top: 20px;
